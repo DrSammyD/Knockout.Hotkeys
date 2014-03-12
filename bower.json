@@ -1,0 +1,21 @@
+{
+    "name": "YourAwesomePackageName",
+    "version": "1.0.0",
+    "main": "js/knockout.hotkeys.js",
+    "ignore": [
+        "source",
+        "spec",
+        ".bowerrc",
+        ".gitignore",
+        ".gitattributes",
+        ".jshintignore",
+        ".jshintrc",
+        "bower.json",
+        "gruntfile.js",
+        "package.json",
+        "README.md"
+    ],
+    "dependencies": {
+        "knockout": ">=2.2.0"
+    }
+}
