@@ -1,5 +1,5 @@
 {
-    "name": "YourAwesomePackageName",
+    "name": "Knockout.Hotkeys",
     "version": "1.0.0",
     "main": "javascripts/knockout.hotkeys.js",
     "ignore": [
