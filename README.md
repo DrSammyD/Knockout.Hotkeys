@@ -35,3 +35,7 @@ Options
 By default the hotkey event handlers are bound to the window object, you can override this by setting the ko.hotkeys.defaultOptions.bindElement, to the element you wish to bind to (this must be done before ko.applyBindings is called):
 
     ko.hotkeys.defaultOptions.bindElement = document;
+    
+Updates
+-------
+09/11/2014 - Enhanced parsing of hotkey to allow multiple special characters (previous replace function only replaced first "+" symbol, now replaces all "+" that are followed by another "+", word, or digit)
