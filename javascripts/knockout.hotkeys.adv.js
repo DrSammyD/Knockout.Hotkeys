@@ -9,6 +9,9 @@
 *
 * Original idea by:
 * Binny V A, http://www.openjs.com/scripts/events/keyboard_shortcuts/
+*
+* Updated by Andrew Stoker (09/11/2014)
+*
 */
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
