@@ -70,7 +70,7 @@
 								return;
 							
 							// Format the hotkey into a parsable format
-							hotkey = hotkey.toLowerCase().replace("+", "");
+							hotkey = hotkey.toLowerCase().replace(/\+(?=\+|\w|\d)/g, "");
 							
 							ko.utils.registerEventHandler(ko.hotkeys.defaultOptions.bindElement, eventName, function (event) {
 
