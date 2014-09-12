@@ -1,6 +1,6 @@
 {
     "name": "Knockout.Hotkeys",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "javascripts/knockout.hotkeys.js",
     "ignore": [
         "source",
