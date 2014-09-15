@@ -1,6 +1,7 @@
 About
 =====
 **Knockout.Hotkeys** is a hotkeys plugin for **Knockout.js** allowing you to define global hotkey bindings.
+Future development is planned to allow more combinations of hotkeys.
 
 Syntax
 ------
